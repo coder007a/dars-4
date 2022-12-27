@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: initial;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #292933;
+}
+.dark{
+    background-color: #22343D;
+}
+body{
+    font-family: 'Poppins', sans-serif;                                                                                                                                                                                                                                                                                                                    
+}
+.container__general{
+    max-width: 1940px;
+    border: 2px solid;
+}

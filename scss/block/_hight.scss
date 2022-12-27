@@ -1,0 +1,34 @@
+.major{
+    max-width: 1920px; ;
+    height: 30px;
+    background-color: #282831;
+}
+.container-hight{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.hight__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hight__item + .hight__item{
+    margin-left: 40px;
+}
+.hight__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+
+}
+.hight__item:nth-child(2), .hight__item:nth-child(3){
+    color: #B69B89;
+}
+.hight__text{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F6F3F1;
+}
