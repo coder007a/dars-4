@@ -64,4 +64,14 @@
             }
         }
     }
+    .our__blocklist{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__item{
+            display:grid;
+            grid-template-columns: 200px;
+            grid-column: 30px;
+        }
+    }
 }
